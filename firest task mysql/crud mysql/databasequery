@@ -1,0 +1,10 @@
+-- create database
+CREATE DATABASE catogri;
+
+-- create TABLE and attributa
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    image VARCHAR(255)
+);
